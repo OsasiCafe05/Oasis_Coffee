@@ -1901,7 +1901,7 @@
 
 <script>
   // ======= CONFIG (غيريهم كما تريدين) =======
-  const WHATSAPP_NUMBER = "15551234567"; // بدون + ، غيريه لرقم الكافيه
+  const WHATSAPP_NUMBER = "+972598478902"; // بدون + ، غيريه لرقم الكافيه
   const CAFE_EMAIL      = "oasis@example.com"; // ايميل الكافيه لاستقبال الكود
 
   // ======= HELPERS =======
@@ -2165,7 +2165,7 @@
     cart.forEach(it => total += it.price * it.qty);
     text += `%0ATotal (approx): $${total.toFixed(2)}%0A`;
 
-    const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${text}`;
+    const url = `https://wa.me/${+97259847902}?text=${text}`;
     window.open(url, '_blank');
   });
 
